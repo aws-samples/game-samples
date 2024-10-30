@@ -1,0 +1,24 @@
+#yellow {
+    background-color: #ffee58;
+}
+
+#red {
+    background-color: #ef5350;
+}
+
+#green {
+    background-color: #00c853;
+}
+
+#blue {
+    background-color: #448aff;
+}
+
+.activated {
+    opacity: .2;
+}
+
+.piece {
+    width: 100px !important;
+    height: 100px !important;
+}

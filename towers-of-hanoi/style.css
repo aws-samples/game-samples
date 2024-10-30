@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.towers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    border-bottom: 6px solid #616161;
+    margin: -65px 0 0 -187px;
+    width: 374px;
+    height: 130px;
+    left: 50%;
+    top: 50%;
+}
+
+.dock {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 32%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dock::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #616161;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.disk {
+    position: relative;
+    display: block;
+    height: 12px;
+    box-sizing: border-box;
+    bottom: 0px;
+}
+
+.disk-1 {
+    margin-left: 40%; 
+    width: 20%;
+    background-color: #ef9a9a;
+}
+
+.disk-2 {
+    margin-left: 32%;
+    width: 36%;
+    background-color: #ffa000;
+}
+
+.disk-3 {
+    margin-left: 24%;
+    width: 52%;
+    background-color: #ffea00;
+}
+
+.disk-4 {
+    margin-left: 16%;
+    width: 68%;
+    background-color: #66bb6a;
+}
+
+.disk-5 {
+    margin-left: 8%;
+    width: 84%;
+    background-color: #03a9f4;
+}
+
+.disk-6 {
+    width: 100%;
+    background-color: #3f51b5;
+}
+
+.selected > div:first-of-type  {
+    transform: translate(0, -100%);
+}

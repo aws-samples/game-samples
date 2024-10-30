@@ -1,11 +1,11 @@
-## My Project
+## Sample games
 
-TODO: Fill this README out!
+This repository contains four very simple game ideas:
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+1. A trivia game with an [AWS Amplify](https://docs.amplify.aws/react/start/quickstart/) backend
+1. A "repeat after me" game where you click the colors in the same order the game generates
+1. A Tic Tac Toe game
+1. [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
 ## Security
 

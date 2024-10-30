@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flood</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Flood</h1>
+    <div class="board">
+      <div class="row">
+        <div class="square" data-row="0" data-col="0"></div>
+        <div class="square" data-row="0" data-col="1"></div>
+        <div class="square" data-row="0" data-col="2"></div>
+        <div class="square" data-row="0" data-col="3"></div>
+        <div class="square" data-row="0" data-col="4"></div>
+        <div class="square" data-row="0" data-col="5"></div>
+        <div class="square" data-row="0" data-col="6"></div>
+        <div class="square" data-row="0" data-col="7"></div>
+        <div class="square" data-row="0" data-col="8"></div>
+        <div class="square" data-row="0" data-col="9"></div>
+        <div class="square" data-row="0" data-col="10"></div>
+        <div class="square" data-row="0" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="1" data-col="0"></div>
+        <div class="square" data-row="1" data-col="1"></div>
+        <div class="square" data-row="1" data-col="2"></div>
+        <div class="square" data-row="1" data-col="3"></div>
+        <div class="square" data-row="1" data-col="4"></div>
+        <div class="square" data-row="1" data-col="5"></div>
+        <div class="square" data-row="1" data-col="6"></div>
+        <div class="square" data-row="1" data-col="7"></div>
+        <div class="square" data-row="1" data-col="8"></div>
+        <div class="square" data-row="1" data-col="9"></div>
+        <div class="square" data-row="1" data-col="10"></div>
+        <div class="square" data-row="1" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="2" data-col="0"></div>
+        <div class="square" data-row="2" data-col="1"></div>
+        <div class="square" data-row="2" data-col="2"></div>
+        <div class="square" data-row="2" data-col="3"></div>
+        <div class="square" data-row="2" data-col="4"></div>
+        <div class="square" data-row="2" data-col="5"></div>
+        <div class="square" data-row="2" data-col="6"></div>
+        <div class="square" data-row="2" data-col="7"></div>
+        <div class="square" data-row="2" data-col="8"></div>
+        <div class="square" data-row="2" data-col="9"></div>
+        <div class="square" data-row="2" data-col="10"></div>
+        <div class="square" data-row="2" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="3" data-col="0"></div>
+        <div class="square" data-row="3" data-col="1"></div>
+        <div class="square" data-row="3" data-col="2"></div>
+        <div class="square" data-row="3" data-col="3"></div>
+        <div class="square" data-row="3" data-col="4"></div>
+        <div class="square" data-row="3" data-col="5"></div>
+        <div class="square" data-row="3" data-col="6"></div>
+        <div class="square" data-row="3" data-col="7"></div>
+        <div class="square" data-row="3" data-col="8"></div>
+        <div class="square" data-row="3" data-col="9"></div>
+        <div class="square" data-row="3" data-col="10"></div>
+        <div class="square" data-row="3" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="4" data-col="0"></div>
+        <div class="square" data-row="4" data-col="1"></div>
+        <div class="square" data-row="4" data-col="2"></div>
+        <div class="square" data-row="4" data-col="3"></div>
+        <div class="square" data-row="4" data-col="4"></div>
+        <div class="square" data-row="4" data-col="5"></div>
+        <div class="square" data-row="4" data-col="6"></div>
+        <div class="square" data-row="4" data-col="7"></div>
+        <div class="square" data-row="4" data-col="8"></div>
+        <div class="square" data-row="4" data-col="9"></div>
+        <div class="square" data-row="4" data-col="10"></div>
+        <div class="square" data-row="4" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="5" data-col="0"></div>
+        <div class="square" data-row="5" data-col="1"></div>
+        <div class="square" data-row="5" data-col="2"></div>
+        <div class="square" data-row="5" data-col="3"></div>
+        <div class="square" data-row="5" data-col="4"></div>
+        <div class="square" data-row="5" data-col="5"></div>
+        <div class="square" data-row="5" data-col="6"></div>
+        <div class="square" data-row="5" data-col="7"></div>
+        <div class="square" data-row="5" data-col="8"></div>
+        <div class="square" data-row="5" data-col="9"></div>
+        <div class="square" data-row="5" data-col="10"></div>
+        <div class="square" data-row="5" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="6" data-col="0"></div>
+        <div class="square" data-row="6" data-col="1"></div>
+        <div class="square" data-row="6" data-col="2"></div>
+        <div class="square" data-row="6" data-col="3"></div>
+        <div class="square" data-row="6" data-col="4"></div>
+        <div class="square" data-row="6" data-col="5"></div>
+        <div class="square" data-row="6" data-col="6"></div>
+        <div class="square" data-row="6" data-col="7"></div>
+        <div class="square" data-row="6" data-col="8"></div>
+        <div class="square" data-row="6" data-col="9"></div>
+        <div class="square" data-row="6" data-col="10"></div>
+        <div class="square" data-row="6" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="7" data-col="0"></div>
+        <div class="square" data-row="7" data-col="1"></div>
+        <div class="square" data-row="7" data-col="2"></div>
+        <div class="square" data-row="7" data-col="3"></div>
+        <div class="square" data-row="7" data-col="4"></div>
+        <div class="square" data-row="7" data-col="5"></div>
+        <div class="square" data-row="7" data-col="6"></div>
+        <div class="square" data-row="7" data-col="7"></div>
+        <div class="square" data-row="7" data-col="8"></div>
+        <div class="square" data-row="7" data-col="9"></div>
+        <div class="square" data-row="7" data-col="10"></div>
+        <div class="square" data-row="7" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="8" data-col="0"></div>
+        <div class="square" data-row="8" data-col="1"></div>
+        <div class="square" data-row="8" data-col="2"></div>
+        <div class="square" data-row="8" data-col="3"></div>
+        <div class="square" data-row="8" data-col="4"></div>
+        <div class="square" data-row="8" data-col="5"></div>
+        <div class="square" data-row="8" data-col="6"></div>
+        <div class="square" data-row="8" data-col="7"></div>
+        <div class="square" data-row="8" data-col="8"></div>
+        <div class="square" data-row="8" data-col="9"></div>
+        <div class="square" data-row="8" data-col="10"></div>
+        <div class="square" data-row="8" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="9" data-col="0"></div>
+        <div class="square" data-row="9" data-col="1"></div>
+        <div class="square" data-row="9" data-col="2"></div>
+        <div class="square" data-row="9" data-col="3"></div>
+        <div class="square" data-row="9" data-col="4"></div>
+        <div class="square" data-row="9" data-col="5"></div>
+        <div class="square" data-row="9" data-col="6"></div>
+        <div class="square" data-row="9" data-col="7"></div>
+        <div class="square" data-row="9" data-col="8"></div>
+        <div class="square" data-row="9" data-col="9"></div>
+        <div class="square" data-row="9" data-col="10"></div>
+        <div class="square" data-row="9" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="10" data-col="0"></div>
+        <div class="square" data-row="10" data-col="1"></div>
+        <div class="square" data-row="10" data-col="2"></div>
+        <div class="square" data-row="10" data-col="3"></div>
+        <div class="square" data-row="10" data-col="4"></div>
+        <div class="square" data-row="10" data-col="5"></div>
+        <div class="square" data-row="10" data-col="6"></div>
+        <div class="square" data-row="10" data-col="7"></div>
+        <div class="square" data-row="10" data-col="8"></div>
+        <div class="square" data-row="10" data-col="9"></div>
+        <div class="square" data-row="10" data-col="10"></div>
+        <div class="square" data-row="10" data-col="11"></div>
+      </div>
+      <div class="row">
+        <div class="square" data-row="11" data-col="0"></div>
+        <div class="square" data-row="11" data-col="1"></div>
+        <div class="square" data-row="11" data-col="2"></div>
+        <div class="square" data-row="11" data-col="3"></div>
+        <div class="square" data-row="11" data-col="4"></div>
+        <div class="square" data-row="11" data-col="5"></div>
+        <div class="square" data-row="11" data-col="6"></div>
+        <div class="square" data-row="11" data-col="7"></div>
+        <div class="square" data-row="11" data-col="8"></div>
+        <div class="square" data-row="11" data-col="9"></div>
+        <div class="square" data-row="11" data-col="10"></div>
+        <div class="square" data-row="11" data-col="11"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

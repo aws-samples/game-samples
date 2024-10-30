@@ -1,0 +1,21 @@
+.square {
+    width: 30px;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.board {
+    width: 360px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+}
